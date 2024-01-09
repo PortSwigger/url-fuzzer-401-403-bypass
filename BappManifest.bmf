@@ -1,0 +1,13 @@
+Uuid: 89f689c69d3840e99d73eacaff3e4a8d
+ExtensionType: 1
+Name: URL Fuzzer - 401/403 Bypass
+RepoName: url-fuzzer-401-403-bypass
+ScreenVersion: 1.0
+SerialVersion: 1
+MinPlatformVersion: 12
+ProOnly: True
+Author: Akenofu
+ShortDescription: Fuzz URLs for HTTP parser inconsistencies
+EntryPoint: build/libs/URL_Fuzzer_403_Bypass-1.0-SNAPSHOT.jar
+BuildCommand: ./gradlew jar
+SupportedProducts: Pro
